@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?impo   rt javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.layout.HBox?>
+<BorderPane prefHeight="673.0" prefWidth="903.0" styleClass="white-background" stylesheets="@../../../css/styles.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <HBox alignment="CENTER_LEFT" prefHeight="60.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" lineSpacing="20.0" prefHeight="60.0" prefWidth="128.0" text="Movies">
+               <font>
+                  <Font name="HoloLens MDL2 Assets" size="18.0" />
+               </font>
+            </Label>
+            <Separator focusTraversable="false" orientation="VERTICAL" prefHeight="36.0" prefWidth="5.0" />
+            <Pane prefHeight="60.0" prefWidth="81.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="-1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="61.0" prefWidth="83.0" text="Action">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+                  <Separator layoutX="-134.0" layoutY="61.0" maxWidth="1.7976931348623157E308" prefHeight="1.0" prefWidth="890.0" />
+               </children>
+            </Pane>
+            <Separator focusTraversable="false" layoutX="138.0" layoutY="10.0" orientation="VERTICAL" prefHeight="36.0" prefWidth="5.0" />
+            <Pane prefHeight="60.0" prefWidth="75.0">
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="-2.0" prefHeight="64.0" prefWidth="76.0" text="Drama">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Separator focusTraversable="false" layoutX="220.0" layoutY="10.0" orientation="VERTICAL" prefHeight="36.0" prefWidth="5.0" />
+            <Pane prefHeight="60.0" prefWidth="75.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="-4.0" layoutY="-2.0" prefHeight="64.0" prefWidth="78.0" text="Romance">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Separator focusTraversable="false" layoutX="301.0" layoutY="10.0" orientation="VERTICAL" prefHeight="36.0" prefWidth="5.0" />
+            <Pane prefHeight="200.0" prefWidth="75.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="-4.0" layoutY="-2.0" prefHeight="64.0" prefWidth="78.0" text="Family">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Separator focusTraversable="false" layoutX="138.0" layoutY="10.0" orientation="VERTICAL" prefHeight="36.0" prefWidth="5.0" />
+            <Pane layoutX="144.0" layoutY="10.0" prefHeight="60.0" prefWidth="81.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="-3.0" prefHeight="61.0" prefWidth="83.0" text="Horror">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Pane prefHeight="60.0" prefWidth="170.0" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" maxHeight="-Infinity" prefHeight="35.0" prefWidth="163.0" styleClass="round-layout" stylesheets="@../../../css/styles.css">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin>
+               <children>
+                  <TextField prefHeight="26.0" prefWidth="114.0" promptText="Search" styleClass="white-background" stylesheets="@../../../css/styles.css">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></TextField>
+                  <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/search_icon.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </HBox>
+   </top>
+</BorderPane>
